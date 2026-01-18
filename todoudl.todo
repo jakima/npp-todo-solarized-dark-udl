@@ -1,0 +1,32 @@
+*huge chunk of work*{
+  description of sub chunk
+	{[] task @tag
+		sub-task PRIORITY PRIORITY3 PRIORITIZE
+		  sub-sub-task INCIDENT
+	[] some task <due-on_turned-in> <260131-260203>
+	[$] task done  
+	[>] task being worked on
+	[|] approval pending or waiting for something
+	[?] question on :thing for %person1
+	[#] bug @test
+	[/] removed task
+	don't like []?
+	  use @markers to :mark things instead
+	  !!P0 !!I1
+	  `2601031` ` ^[\s\t]*\$$ Find>regex-mode>count|mark-all `
+	  $ task that is completed
+	  Done DONE dOnE solved fixed replied approved
+	  > task being worked on
+	    doing
+	  | task without clear requirement
+	    wait waiting warning postponed forwarded pending research todo solve challenge fix
+	  ? what is the purpose of life
+	    question info feedback
+	  # aging? seriously? disable it!
+	    bug issue issues revise unapproved fail failed
+	  / out of scope task
+	    dropped cancelled discarded disapproved rejected
+	  and :combine them for :context
+		$# ># /? #? |? |question []|#?
+	}
+}
